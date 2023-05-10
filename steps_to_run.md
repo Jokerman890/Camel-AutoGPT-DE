@@ -1,18 +1,17 @@
 # Server
 
-1. To run server, install virtualenv first https://virtualenv.pypa.io/en/latest/ and create a new virtual environment to load all necessary python packages
+1. Um den Server auszuführen, installieren Sie zuerst virtualenv https://virtualenv.pypa.io/en/latest/ und erstellen Sie eine neue virtuelle Umgebung, um alle notwendigen Python-Pakete zu laden
 
-2. Go to server folder and install all necessary packages using command "pip install -r requirements.txt"
+2. Gehen Sie zum Server-Ordner und installieren Sie alle notwendigen Pakete mit dem Befehl "pip install -r requirements.txt"
 
-3. Set environment variables FLASK_ENV=dev and FLASK_APP=webserver.py
+3. Setzen Sie die Umgebungsvariablen FLASK_ENV=dev und FLASK_APP=webserver.py
 
-4. Create a db for storing all the info using commands  i) flask db init ii) flask db migrate iii) flask db upgrade
-
-5. Run the server using python webserver.py
+4. Erstellen Sie eine Datenbank zur Speicherung aller Informationen mit den Befehlen i) flask db init ii) flask db migrate iii) flask db upgrade
+5. Starten Sie den Server mit python webserver.py
 
 
 # Client
 
-1. To run client, go to client folder and do npm install
+1. Um den Client auszuführen, gehen Sie zum Client-Ordner und führen Sie npm install aus
 
-2. Now run "npm start" and this should start the client
+2. Führen Sie nun "npm start" aus und der Client sollte gestartet werden
